@@ -1,10 +1,9 @@
-import unittest
+import unittest2 as unittest
 
-from main.crawler.crawler import MyCrawler
+from src.main.crawler import MyCrawler
 
 
-class TestCrawlerMethods(unittest.TestCase):
-
+class TestCrawler(unittest.TestCase):
     def setUp(self):
         self.crawler = MyCrawler("www.google.com")
 
