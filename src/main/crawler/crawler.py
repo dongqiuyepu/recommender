@@ -17,5 +17,5 @@ class MyCrawler:
 
 
 if __name__ == '__main__':
-    crawler = MyCrawler("sdf")
+    crawler = MyCrawler("asdf")
     print(crawler.get_url())
